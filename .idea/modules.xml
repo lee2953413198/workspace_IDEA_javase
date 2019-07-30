@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day02/Day02.iml" filepath="$PROJECT_DIR$/Day02/Day02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day03/Day03.iml" filepath="$PROJECT_DIR$/Day03/Day03.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01/day01.iml" filepath="$PROJECT_DIR$/day01/day01.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop/oop.iml" filepath="$PROJECT_DIR$/oop/oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/planewar/planewar.iml" filepath="$PROJECT_DIR$/planewar/planewar.iml" />
     </modules>
   </component>
 </project>

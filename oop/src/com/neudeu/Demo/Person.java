@@ -1,8 +1,14 @@
 package com.neudeu.Demo;
 
-public class Person {
+public abstract class Person {
     private String name;
     private int age;
+    static int a = 12;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
     public Person(){
         this.age=18;
@@ -16,8 +22,13 @@ public class Person {
     public int getAge() {
         return age;
     }
-    public void display(){
-        System.out.println(age);
-        System.out.println(name);
+
+    public void setName(String name) {
+        this.name = name;
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public abstract int eat();
 }
